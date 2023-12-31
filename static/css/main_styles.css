@@ -1,6 +1,7 @@
 /* main_styles.css - branch: colors-fonts */
 body {
     background-color: #f5f5dc; /* beżowy tło */
+    color: blue;
     font-family: 'Arial', sans-serif; /* zmiana czcionki */
     /* Dodaj inne style dla strony głównej */
 }
