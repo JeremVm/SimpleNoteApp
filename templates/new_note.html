@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>New Note</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main_styles.css') }}">
 </head>
 <body>
+    <h1>Simple Note App</h1>
+    <div class="menu">
+        <!-- Dodaj menu -->
+        <ul>
+            <li><a href="/">Home</a></li>
+	    <li><a href="/new">New Note</a></li>	    
+            <!-- Dodaj inne opcje menu -->
+        </ul>
+    </div>
     <h1>New Note</h1>
     <form action="/new" method="post">
         <input type="text" name="title" placeholder="Enter note title">
