@@ -1,6 +1,6 @@
-/* main_styles.css - branch: panel-menu */
-.menu {
-    background-color: #6b8e23; /* butelkowa zieleń */
-    color: #fff; /* biały kolor tekstu */
-    /* Dodaj inne style dla panelu menu */
+/* main_styles.css - branch: colors-fonts */
+body {
+    background-color: #f5f5dc; /* beżowy tło */
+    font-family: 'Arial', sans-serif; /* zmiana czcionki */
+    /* Dodaj inne style dla strony głównej */
 }
