@@ -1,7 +1,20 @@
-/* main_styles.css - branch: colors-fonts */
-body {
-    background-color: #f5f5dc; /* beżowy tło */
-    color: blue;
-    font-family: 'Arial', sans-serif; /* zmiana czcionki */
-    /* Dodaj inne style dla strony głównej */
+/* main_styles.css - branch: panel-menu */
+.menu {
+    background-color: #6b8e23; /* butelkowa zieleń */
+    color: #fff; /* biały kolor tekstu */
+    padding: 20px; /* Dodatkowy padding dla menu */
+    display: flex; /* Ustawienie elementów w poziomie */
+    justify-content: center; /* Wyśrodkowanie elementów */
+}
+
+.menu a {
+    text-decoration: none; /* Usunięcie podkreślenia odnośników */
+    color: #fff; /* Kolor tekstu */
+    padding: 8px 12px; /* Padding dla każdego odnośnika */
+    border-radius: 5px; /* Zaokrąglenie krawędzi */
+    margin: 0 5px; /* Margines między elementami */
+}
+
+.menu a:hover {
+    background-color: #8FBC8F; /* Zmiana koloru podczas najechania */
 }
