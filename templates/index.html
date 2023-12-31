@@ -6,13 +6,22 @@
 </head>
 <body>
     <h1>Simple Note App</h1>
-    <form action="/add_note" method="post">
-        <input type="text" name="note">
+    <div class="menu">
+        <!-- Dodaj menu -->
+        <ul>
+            <li><a href="/">Home</a></li>
+	    <li><a href="/new">New Note</a></li>	    
+            <!-- Dodaj inne opcje menu -->
+        </ul>
+    </div>
+    <form action="/" method="post">
+        <input type="text" name="title" placeholder="Enter note title"> <!-- Dodaj pole na tytuł -->
+        <textarea name="content" placeholder="Enter note content"></textarea> <!-- Dodaj pole na treść notatki -->
         <button type="submit">Add Note</button>
     </form>
     <ul>
         {% for note in notes %}
-        <li>{{ note }}</li>
+            <li><a href="/note/{{ note.title }}">{{ note.title }}</a></li> <!-- Wyświetl notatki po tytule -->
         {% endfor %}
     </ul>
 </body>
